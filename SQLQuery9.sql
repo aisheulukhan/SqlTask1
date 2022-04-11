@@ -21,7 +21,7 @@ VALUES ('Sebine',21,74)
 INSERT INTO Students(Name, Age, AvgPoint)
 VALUES ('Ali',25,45)
 INSERT INTO Students(Name, Age, AvgPoint)
-VALUES ('Emine',17,50)
+VALUES ('Emine',25,50)
 INSERT INTO Students(Name, Age, AvgPoint)
 VALUES ('Sadiq',23,92)
 
@@ -29,7 +29,7 @@ VALUES ('Sadiq',23,92)
 
 --SELECT * FROM Students
 
---SELECT Name, AvgPoint FROM Students WHERE AvgPoint > 51
+--SELECT AvgPoint FROM Students WHERE AvgPoint > 51
 --SELECT Name, AvgPoint FROM Students WHERE AvgPoint > 51 and AvgPoint < 90
 --SELECT Name FROM Students WHERE Name like 'a%' and Name like '%i'
 --SELECT Name FROM Students WHERE Name like '%i_'
